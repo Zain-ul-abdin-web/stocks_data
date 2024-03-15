@@ -1,0 +1,42 @@
+{
+  "name": "milestone1",
+  "version": "1.0.0",
+  "description": "To collect FAA data",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node",
+    "webpack": "webpack --mode production",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Salman Haider",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "convert-excel-to-json": "^1.7.0",
+    "cors": "^2.8.5",
+    "entities": "^4.2.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http-status": "^1.7.3",
+    "moment": "^2.29.4",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.7.0",
+    "winston": "^3.11.0",
+    "xlsx-parse-json": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
